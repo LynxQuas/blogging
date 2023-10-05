@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Assignmnet | Blog</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAV BAR FOR DESKTOP  -->
+      <nav class="header_nav desktop">
+        <span class="medium_fs">Home Page</span>
+
+        <ul class="lists">
+          <li class="list create_post hidden">Create Post</li>
+        </ul>
+
+        <div>
+          <button class="btn btn_login">Login</button>
+          <button class="btn btn_logout hidden">Logout</button>
+          <button class="btn btn_register">Register</button>
+        </div>
+      </nav>
+
+      <!-- NAV BAR FOR MOBILE  -->
+      <nav id="header_nav-mb" class="mobile hidden">
+        <span class="medium_fs">Home Page</span>
+
+        <div id="humburger">
+          <img
+            src="/images/delete.png"
+            alt="delete"
+            width="30px"
+            height="30px"
+            class="delete_logo hidden"
+          />
+          <svg
+            fill="#000000"
+            width="40px"
+            height="40px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="menu"
+              d="M6.001 7.128L6 10.438l19.998-.005L26 7.124zM6.001 21.566L6 24.876l19.998-.006.002-3.308zM6.001 14.341L6 17.65l19.998-.004.002-3.309z"
+            />
+          </svg>
+        </div>
+      </nav>
+
+      <div class="humburger_menu hidden">
+        <img src="/images/delete.png" alt="delete" class="hide_menu-btn" />
+        <ul class="lists_mobile">
+          <li class="list create_post hidden">Create Post</li>
+        </ul>
+
+        <div class="btn_container-mb">
+          <button class="btn btn-mb btn_login">Login</button>
+          <button class="btn btn-mb btn_logout hidden">Logout</button>
+          <button class="btn btn-mb btn_register">Register</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="root"></div>
+    </main>
+    <!-- REGISTER FORM HIDDEN  -->
+
+    <form class="register_form form hidden" method="post">
+      <img src="/images/delete.png" alt="delete" class="hide_register-form" />
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        autocomplete="off"
+        autofocus
+      />
+      <input type="password" name="password" placeholder="password" />
+      <input
+        type="password"
+        name="confirmation"
+        placeholder="Confirm Password"
+      />
+      <button type="submit" class="btn">Register</button>
+    </form>
+
+    <!-- LOGIN FORM HIDDEN  -->
+    <form class="login_form form hidden" method="post">
+      <img src="/images/delete.png" alt="delete" class="hide_register-form" />
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        autocomplete="off"
+        autofocus
+      />
+      <input type="password" name="password" placeholder="password" />
+      <button type="submit" class="btn">Login</button>
+    </form>
+
+    <script type="module" src="script.js"></script>
+    
+  </body>
+</html>
