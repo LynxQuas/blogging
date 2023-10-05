@@ -1,9 +1,9 @@
 # Blogging Website Readme
-    This readme file provides an overview of the code for a simple blogging website. The website allows users to register, log in, create posts, and view existing posts. Below, you'll find information about the code's structure, functionality, and important features.
+This readme file provides an overview of the code for a simple blogging website. The website allows users to register, log in, create posts, and view existing posts. Below, you'll find information about the     code's structure, functionality, and important features.
 
 
 ## Introduction
-    This code is for a basic blogging website that includes user registration, login, post creation, and post viewing functionalities. It uses HTML, CSS, and JavaScript for the frontend. The code is organized into different sections, each responsible for specific functionality.
+This code is for a basic blogging website that includes user registration, login, post creation, and post viewing functionalities. It uses HTML, CSS, and JavaScript for the frontend. The code is organized into different sections, each responsible for specific functionality.
 
 ## File Structure
 ### helpers.js: 
